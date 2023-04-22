@@ -90,7 +90,8 @@ nav ul li:hover a {
 }
 
 #inquire {
-    width: 30%;
+    width: 27%;
+    text-align: justify;
 }
 
 #form {
@@ -103,7 +104,7 @@ nav ul li:hover a {
 }
 
 form {
-    width: 70%;
+    width: 65%;
 }
 
 button {

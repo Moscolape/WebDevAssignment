@@ -58,3 +58,14 @@ nav ul li a {
 nav ul li:hover a {
     color: white;
 }
+
+
+/* Styling for Useful-links section */
+
+main {
+    padding: 30px;
+}
+
+main ul li {
+    margin: 20px 0px;
+}
