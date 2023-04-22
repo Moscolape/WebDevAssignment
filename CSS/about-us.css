@@ -1,0 +1,99 @@
+/* General styling for the body */
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Poppins;
+    position: relative;
+}
+
+
+/* Navigation styling */
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    box-shadow: 2px 2px 5px lightgray;
+}
+
+nav img {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 10px 20px;
+    background: unset;
+    transition: background 0.5s;
+}
+
+#about-link {
+    background: black;
+    border: 1px solid white;
+    padding: 10px 20px;
+}
+
+#about-link a {
+    color: white;
+}
+
+nav ul li:hover {
+    background: black;
+}
+
+nav ul li a {
+    text-decoration: unset;
+    color: black;
+}
+
+nav ul li:hover a {
+    color: white;
+}
+
+
+/* About Section */
+
+#main {
+    height: 87vh;
+    position: relative;
+}
+
+.about-us {
+    width: 80%;
+    /* center div horizontally and vertically */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.about-us h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.about-lightstudio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-lightstudio div {
+    text-align: justify;
+    width: 45%;
+}
+
+.about-lightstudio div p:nth-child(1):first-letter{
+    font-size: 1.5rem;
+    font-weight: bold;
+}

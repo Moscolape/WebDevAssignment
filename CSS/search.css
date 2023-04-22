@@ -1,0 +1,50 @@
+/* General styling for the body */
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Poppins;
+    position: relative;
+}
+
+
+/* Navigation styling */
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    box-shadow: 2px 2px 5px lightgray;
+}
+
+nav img {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 10px 20px;
+    background: unset;
+    transition: background 0.5s;
+}
+
+nav ul li:hover {
+    background: black;
+}
+
+nav ul li a {
+    text-decoration: unset;
+    color: black;
+}
+
+nav ul li:hover a {
+    color: white;
+}

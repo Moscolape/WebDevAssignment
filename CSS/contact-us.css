@@ -1,0 +1,141 @@
+/* General styling for the body */
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Poppins;
+    position: relative;
+}
+
+
+/* Navigation styling */
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    box-shadow: 2px 2px 5px lightgray;
+}
+
+nav img {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 10px 20px;
+    background: unset;
+    transition: background 0.5s;
+}
+
+#contact-link {
+    background: black;
+    border: 1px solid white;
+    padding: 10px 20px;
+}
+
+#contact-link a {
+    color: white;
+}
+
+
+nav ul li:hover {
+    background: black;
+}
+
+nav ul li a {
+    text-decoration: unset;
+    color: black;
+}
+
+nav ul li:hover a {
+    color: white;
+}
+
+
+/* Contact Section */
+
+.contact {
+    height: 87vh;
+    position: relative;
+}
+
+.reach-us {
+    width: 90%;
+    /* center div horizontally and vertically */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.reach-us h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.flex-contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+#inquire {
+    width: 30%;
+}
+
+#form {
+    width: 60%;
+    padding: 30px;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    width: 70%;
+}
+
+button {
+    display: block;
+    font-family: Poppins;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 80%;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input {
+    display: block;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255, 0);
+    height: 50px;
+    width: 80%;
+    border-bottom: 2px solid black;
+    font-size: 14px;
+}
+
+input::placeholder {
+    font-family: Poppins;
+    color: black;
+    font-size: 14px;
+}
+
+#our-addresses div:nth-child(2) {
+    margin-top: 70px;
+}

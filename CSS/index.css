@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Poppins;
+}
+
+section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#disclaimer {
+    position: absolute;
+    top: 0;
+}
+
+.student-info {
+    padding: 30px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background: rgb(53, 207, 192);
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    transition: background 0.5s, color 0.5s;
+}
+
+a:hover {
+    background: red;
+    color: white;
+}
