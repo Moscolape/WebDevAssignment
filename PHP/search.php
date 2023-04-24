@@ -12,14 +12,14 @@
 <body>
     <!-- nav section -->
     <nav>
-        <a href="home.html"><img src="../images/weblogo.jpg" alt="go-to-home_logo"></a>
+        <a href="../HTML/home.html"><img src="../images/weblogo.jpg" alt="go-to-home_logo"></a>
         <ul>
             <li><a href="../PHP/products.php"> Products</a></li>
             <li><a href="../PHP/search.php">Search</a></li>
             <li><a href="../PHP/order.php">Order</a></li>
-            <li><a href="./about-us.html">About Us</a></li>
-            <li><a href="./contact-us.html">Contact Us</a></li>
-            <li><a href="./useful-links.html">Useful Links</a></li>
+            <li><a href="../HTML/about-us.html">About Us</a></li>
+            <li><a href="../HTML/contact-us.html">Contact Us</a></li>
+            <li><a href="../HTML/useful-links.html">Useful Links</a></li>
         </ul>
     </nav>
 </body>
