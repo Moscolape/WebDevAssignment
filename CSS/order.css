@@ -1,4 +1,5 @@
 /* General styling for the body */
+
 *{
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -17,8 +18,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: white;
     padding: 0px 10px;
     box-shadow: 2px 2px 5px lightgray;
+    position: fixed;
+    top: 0;
+    z-index: 100;
 }
 
 nav img {
@@ -36,6 +41,16 @@ nav ul li {
     transition: background 0.5s;
 }
 
+#order-link {
+    background: black;
+    border: 1px solid white;
+    padding: 10px 20px;
+}
+
+#order-link a {
+    color: white;
+}
+
 nav ul li:hover {
     background: black;
 }
@@ -47,4 +62,600 @@ nav ul li a {
 
 nav ul li:hover a {
     color: white;
+}
+
+/* section */
+#section {
+    display: none;
+}
+
+#forms {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* display: none; */
+}
+
+#sign-up {
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    padding: 20px 50px;
+    margin: 0px 10px;
+}
+
+#sign-in {
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    padding: 20px 50px;
+    margin: 0px 10px;
+}
+
+#forms div {
+    margin: 30px 0px;
+}
+
+#forms h1 {
+    text-decoration: underline;
+}
+
+#forms input {
+    margin: 10px 0px;
+    height: 40px;
+    width: 250px;
+    padding-left: 5px;
+}
+
+#signed, #login {
+    font-family: Poppins;
+    border-radius: 5px;
+    padding: 10px;
+    width: 50%;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+::placeholder {
+    font-family: 'Poppins';
+    /* padding-left: 5px; */
+}
+
+/* Games for order section */
+.side {
+    width: 80%;
+    position: absolute;
+    right: 0;
+}
+
+#user-order {
+    font-size: 11px;
+    height: 100px;
+    width: 100%;
+    /* position: absolute; */
+}
+
+#hide {
+    display: none;
+}
+
+#place {
+    display: none;
+    cursor: pointer;
+}
+
+/* sidebar styling */
+
+#sidebar {
+    width: 20%;
+    height: 70vh;
+    margin-top: 10%;
+    padding: 0px 10px;
+    position: fixed;
+    border-right: 1px solid black;
+}
+
+#sidebar i {
+    font-size: 11px;
+    text-align: center;
+}
+
+#sidebar h1 {
+    font-size: 20px;
+}
+
+.admin-block {
+    margin: 120px 0px 120px 0px;
+}
+
+.admin-block h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.customers {
+    margin: 30px 0px;
+    padding: 10px 20px;
+    box-shadow: 0 0 5px grey;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.begin {
+    width: 90%;
+    margin: 120px auto 50px auto;
+}
+
+.begin h1 {
+    animation: pulse 1.5s ease-in-out infinite;
+    font-weight: 900;
+}
+
+@keyframes pulse {
+  0% {
+    color: black;
+  }
+
+  25% {
+    color: steelblue;
+  }
+
+  50% {
+    color: navy;
+}
+
+  75% {
+    color: cornflowerblue;
+  }
+
+  100% {
+    color: black;
+  }
+}
+
+.gallery {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+
+/* styling for the add buttons of the 36 games */
+#btn1 {
+    position: absolute;
+    top: 12.1%;
+    left: 23.6%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn2 {
+    position: absolute;
+    top: 12.1%;
+    left: 55.3%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn3 {
+    position: absolute;
+    top: 12.1%;
+    left: 87%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn4 {
+    position: absolute;
+    top: 19.75%;
+    left: 23.6%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn5 {
+    position: absolute;
+    top: 19.75%;
+    left: 55.3%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn6 {
+    position: absolute;
+    top: 19.75%;
+    left: 87%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn7 {
+    position: absolute;
+    top: 27.4%;
+    left: 23.6%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn8 {
+    position: absolute;
+    top: 27.4%;
+    left: 55.3%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn9 {
+    position: absolute;
+    top: 27.4%;
+    left: 87%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn10 {
+    position: absolute;
+    top: 35.05%;
+    left: 23.6%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn11 {
+    position: absolute;
+    top: 35.05%;
+    left: 55.3%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn12 {
+    position: absolute;
+    top: 35.05%;
+    left: 87%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn13 {
+    position: absolute;
+    top: 42.8%;
+    left: 23.6%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn14 {
+    position: absolute;
+    top: 42.8%;
+    left: 55.3%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn15 {
+    position: absolute;
+    top: 42.8%;
+    left: 87%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn16 {
+    position: absolute;
+    top: 50.45%;
+    left: 23.6%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn17 {
+    position: absolute;
+    top: 50.45%;
+    left: 55.3%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn18 {
+    position: absolute;
+    top: 50.45%;
+    left: 87%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn19 {
+    position: absolute;
+    top: 58.1%;
+    left: 23.6%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn20 {
+    position: absolute;
+    top: 58.1%;
+    left: 55.3%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn21 {
+    position: absolute;
+    top: 58.1%;
+    left: 87%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn22 {
+    position: absolute;
+    top: 65.8%;
+    left: 23.6%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn23 {
+    position: absolute;
+    top: 65.8%;
+    left: 55.3%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn24 {
+    position: absolute;
+    top: 65.8%;
+    left: 87%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn25 {
+    position: absolute;
+    top: 73.45%;
+    left: 23.6%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn26 {
+    position: absolute;
+    top: 73.45%;
+    left: 55.3%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn27 {
+    position: absolute;
+    top: 73.45%;
+    left: 87%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn28 {
+    position: absolute;
+    top: 81.15%;
+    left: 23.6%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn29 {
+    position: absolute;
+    top: 81.15%;
+    left: 55.3%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn30 {
+    position: absolute;
+    top: 81.15%;
+    left: 87%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn31 {
+    position: absolute;
+    top: 88.85%;
+    left: 23.6%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn32 {
+    position: absolute;
+    top: 88.85%;
+    left: 55.3%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn33 {
+    position: absolute;
+    top: 88.85%;
+    left: 87%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn34 {
+    position: absolute;
+    top: 96.95%;
+    left: 23.6%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn35 {
+    position: absolute;
+    top: 96.95%;
+    left: 55.3%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+#btn36 {
+    position: absolute;
+    top: 96.95%;
+    left: 87%;
+    cursor: pointer;
+    height: 40px;
+    width: 65px;
+    font-size: 12px;
+}
+
+/* Order list */
+#orders {
+    position: absolute;
+    bottom: 400;
+    left: 50;
+    z-index: 10;
+    width: 80%;
+    margin: auto;
+    color: red;
+}
+
+
+/* styling for the game name section */
+.order-product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order-name {
+    width: 60%;
+    font-size: 13px
+}
+
+#db-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+#db-image:hover {
+    transform: scale(1.05);
+}
+
+
+/* Footer section */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 0px 5px;
+    width: 100%;
+}
+
+footer img {
+    width: 100px;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 0px 10px;
+    transition: 0.5s ease-in-out;
+}
+
+footer ul li a:hover {
+    font-size: 15px;
 }

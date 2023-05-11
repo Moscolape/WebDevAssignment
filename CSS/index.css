@@ -22,6 +22,11 @@ section {
     top: 0;
 }
 
+#disclaimer-two {
+    position: absolute;
+    bottom: 0;
+}
+
 .student-info {
     padding: 30px;
 }
