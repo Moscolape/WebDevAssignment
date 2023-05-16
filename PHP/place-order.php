@@ -2,7 +2,7 @@
 
 session_start();
 
-include "../WebDevAssignment-php/PHP/connection2.php";
+include "./connection2.php";
 
 // if(isset($_SESSION['User']))
     if(isset($_POST['btnPost'])) {

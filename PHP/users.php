@@ -33,7 +33,7 @@
         <main id="sidebar">
             <h1>Welcome, <?php echo $_SESSION['User']; ?></h1>
             <p><i id='any'>No new orders yet!</i></p>
-            <form action="../place-order.php" method="post">
+            <form action="./place-order.php" method="post">
                 <input type="text" name='unames' id='hide' value='<?php echo $_SESSION['User']; ?>'>
                 <textarea name="orders" id="user-order" cols="30" rows="10" value='mean'></textarea>
                 <input type="submit" name="btnPost" value="Place order" id='place' />

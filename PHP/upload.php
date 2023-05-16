@@ -1,6 +1,6 @@
 <?php 
 // Include the database configuration file  
-require_once 'connection.php'; 
+require_once './connection.php'; 
 
 // If file upload form is submitted 
 $status = $statusMsg = ''; 
